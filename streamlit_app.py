@@ -1,3 +1,4 @@
 import streamlit as st
 
-exec(open("app.py", encoding="utf-8").read())
+st.title("E-commerce Customers Dashboard")
+st.write("Loading dashboard...")
